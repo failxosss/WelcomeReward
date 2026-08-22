@@ -1,0 +1,20 @@
+window-seconds: 30
+
+greetings:
+  - "hi"
+  - "hello"
+  - "hey"
+  - "welcome"
+  - "yo"
+  - "sup"
+  - "o/"
+
+reward-commands:
+  - "eco give %player% 100"
+  # other options (uncomment and adjust for your server):
+  # - "give %player% diamond 1"
+  # - "exp add %player% 50"
+
+messages:
+  new-player-join: "&e%player% is on the server for the first time! Greet them within &6%seconds% seconds &eto get a reward."
+  rewarded: "&aThanks for greeting the new player! You received a reward."

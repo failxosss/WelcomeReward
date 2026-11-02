@@ -1,5 +1,5 @@
 name: WelcomeReward
-version: 1.2.0
+version: 1.0.1
 main: cz.tvujserver.welcomereward.WelcomeRewardPlugin
 api-version: 1.20
 author: Failxos

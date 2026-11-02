@@ -1,11 +1,16 @@
 name: WelcomeReward
-version: 1.0.0
+version: 1.2.0
 main: cz.tvujserver.welcomereward.WelcomeRewardPlugin
 api-version: 1.20
 author: Failxos
-description: Reward for players who greet a newly joined player
+description: Reward for players who welcome a newly joined player with /welcome <nick>
 
 commands:
+  welcome:
+    description: Welcome a new player and get a reward
+    aliases: [w]
+    permission: welcomereward.use
+    usage: /<command> <nick>
   welcomereward:
     description: Manage the WelcomeReward plugin
     aliases: [wr]
@@ -13,6 +18,9 @@ commands:
     usage: /<command> reload
 
 permissions:
+  welcomereward.use:
+    description: Allows using /welcome
+    default: true
   welcomereward.admin:
     description: Allows management of the WelcomeReward plugin
     default: op
